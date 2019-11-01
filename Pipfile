@@ -18,4 +18,6 @@ isort = "*"
 yapf = "*"
 
 [packages]
-am4894dev = {path = ".", editable = true}
+am4894dev = {path = ".",editable = true}
+twine = "*"
+sphinx = "*"
