@@ -20,4 +20,5 @@ yapf = "*"
 [packages]
 am4894dev = {path = ".",editable = true}
 twine = "*"
-sphinx = "*"
+sphinx = "==2.2.1"
+sphinxcontrib-napoleon = "*"
