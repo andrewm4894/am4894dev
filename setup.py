@@ -46,6 +46,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/andrewm4894/am4894dev',
-    version='0.2.0',
+    version='version='0.2.0'',
     zip_safe=False,
 )
