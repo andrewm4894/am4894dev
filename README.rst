@@ -20,7 +20,7 @@ am4894dev
 
 
 
-Hello World
+My dev package for playing around with.
 
 
 * Free software: MIT license

@@ -38,7 +38,7 @@ Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl  -OL https://github.com/andrewm4894/am4894dev/tarball/master
+    $ curl -OJL https://github.com/andrewm4894/am4894dev/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
