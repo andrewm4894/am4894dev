@@ -30,7 +30,7 @@ My dev package for playing around with.
 Features
 --------
 
-* TODO
+* Stuff
 
 Credits
 -------
