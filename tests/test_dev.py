@@ -6,7 +6,7 @@
 import pytest
 
 
-from am4894dev import am4894dev
+from am4894dev.dev import hello
 
 
 @pytest.fixture
@@ -23,3 +23,8 @@ def test_content(response):
     """Sample pytest test function with the pytest fixture as an argument."""
     # from bs4 import BeautifulSoup
     # assert 'GitHub' in BeautifulSoup(response.content).title.string
+
+
+def test_dev():
+    res = hello('test')
+    assert res == 'test'
