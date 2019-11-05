@@ -18,6 +18,8 @@ am4894dev
      :target: https://pyup.io/repos/github/andrewm4894/am4894dev/
      :alt: Updates
 
+.. image:: https://badges.frapsoft.com/os/mit/mit.svg?v=103
+        :target: https://opensource.org/licenses/mit-license.php
 
 
 My dev package for playing around with.
