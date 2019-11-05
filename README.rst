@@ -29,6 +29,7 @@ My dev package for playing around with.
 
 * Free software: MIT license
 * Documentation: https://am4894dev.readthedocs.io.
+* `Starter Google Colab Notebook`_
 
 
 Features
@@ -43,3 +44,4 @@ This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypack
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+.. _`Starter Google Colab Notebook`: https://colab.research.google.com/drive/1lqksuYFdubGMo7obTy19TIAVuiA68naM
