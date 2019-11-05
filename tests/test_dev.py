@@ -8,6 +8,7 @@ import pytest
 
 from am4894dev.dev import hello
 
+TEST_STR = 'this is a test'
 
 @pytest.fixture
 def response():
@@ -26,5 +27,5 @@ def test_content(response):
 
 
 def test_dev():
-    res = hello('test')
-    assert res == 'test'
+    res = hello(TEST_STR)
+    assert res == TEST_STR
