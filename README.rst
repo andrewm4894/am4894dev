@@ -20,7 +20,7 @@ am4894dev
 .. image:: https://badges.frapsoft.com/os/mit/mit.svg?v=103
         :target: https://opensource.org/licenses/mit-license.php
 
-.. image:: https://badges.frapsoft.com/os/v3/open-source.svg?v=103
+.. image:: https://badges.frapsoft.com/os/v1/open-source.svg?v=103
         :target: https://github.com/ellerbrock/open-source-badges/
 
 
