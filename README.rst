@@ -13,13 +13,15 @@ am4894dev
         :target: https://am4894dev.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-
 .. image:: https://pyup.io/repos/github/andrewm4894/am4894dev/shield.svg
      :target: https://pyup.io/repos/github/andrewm4894/am4894dev/
      :alt: Updates
 
 .. image:: https://badges.frapsoft.com/os/mit/mit.svg?v=103
         :target: https://opensource.org/licenses/mit-license.php
+
+.. image:: https://badges.frapsoft.com/os/v3/open-source.svg?v=103
+        :target: https://github.com/ellerbrock/open-source-badges/
 
 
 My dev package for playing around with.
