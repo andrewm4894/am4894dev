@@ -39,7 +39,7 @@ setup(
     include_package_data=True,
     keywords='am4894dev',
     name='am4894dev',
-    packages=find_packages(include=['am4894dev', 'am4894dev.*']),
+    packages=find_packages(include=['*']),
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
