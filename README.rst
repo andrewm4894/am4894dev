@@ -28,13 +28,14 @@ My dev package for playing around with.
 
 
 * Free software: MIT license
-* Documentation: https://am4894dev.readthedocs.io.
+* Documentation: https://am4894dev.readthedocs.io (`PDF here`_).
 
 
 Features
 --------
 
-* Stuff
+* See `Google Colab Starter Notebook`_ to play around.
+* Other Stuff :)
 
 Credits
 -------
@@ -43,3 +44,5 @@ This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypack
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+.. _`PDF here`: https://buildmedia.readthedocs.org/media/pdf/am4894dev/latest/am4894dev.pdf
+.. _`Google Colab Starter Notebook`: https://colab.research.google.com/drive/1lqksuYFdubGMo7obTy19TIAVuiA68naM
