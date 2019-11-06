@@ -3,8 +3,8 @@
 
 import pytest 
 
-import am4894dev.netdata as nd
+from am4894dev.netdata.api import get
 
 def test_api_get():
-    res = nd.api.get()
+    res = get()
     assert res['mirrored_hosts'][0] == 'london3.my-netdata.io'

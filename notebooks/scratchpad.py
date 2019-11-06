@@ -1,8 +1,8 @@
 #%%
 
-import am4894dev.netdata as nd
+from am4894dev.netdata.api import get
 
-info = nd.api.get()
+info = get()
 
 print(info['mirrored_hosts'][0])
 
