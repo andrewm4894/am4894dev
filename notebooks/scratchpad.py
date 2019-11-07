@@ -13,6 +13,3 @@ print(info['mirrored_hosts'][0])
 
 pp.pprint(info)
 #get_from_info(info,'collectors')
-
-
-
