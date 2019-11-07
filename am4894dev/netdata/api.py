@@ -11,3 +11,8 @@ def get(endpoint='info',options='',ip='london.my-netdata.io',port='',api_version
         return response.json()
     else:
         return response
+
+
+def get_from_info(info,to_get='collectors'):
+    res = ['__'.join((p.get('plugin'),p.get('module'))) for p in info.get('collectors')]
+    return res
