@@ -12,5 +12,4 @@ def hello(msg='Hello World'):
     Returns:
         [str] -- Returns msg.
     """
-    print(msg)
     return msg

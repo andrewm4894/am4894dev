@@ -1,7 +1,7 @@
 import requests
 
 
-def get(endpoint='info', options='', ip='london.my-netdata.io', port='', api_version='v1/', return_json=True):
+def get(endpoint='info', options='', ip='london.my-netdata.io', port='', api_version='v1/', return_type='json'):
     """Make REST API request to a netdata.
 
     :param endpoint: Endpoint to call.
@@ -9,7 +9,7 @@ def get(endpoint='info', options='', ip='london.my-netdata.io', port='', api_ver
     :param ip: What netdata to pull from.
     :param port: What port to pull from.
     :param api_version: Netdata API version to use
-    :param return_json: If you want to get back json instead of a requests object.
+    :param return_type: If you want to get back json instead of a requests object.
     :return: Response which is either json or a requests response object.
     """
 
@@ -21,8 +21,10 @@ def get(endpoint='info', options='', ip='london.my-netdata.io', port='', api_ver
     response = requests.get(request_url)
 
     # return response
-    if return_json:
+    if return_type == 'json':
         return response.json()
+    elif return_type == 'text':
+        return response.text
     else:
         return response
 
