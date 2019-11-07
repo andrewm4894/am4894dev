@@ -1,3 +1,4 @@
+import pandas as pd
 import requests
 
 
@@ -43,3 +44,43 @@ def get_from_info(info, to_get='collectors'):
         raise NotImplementedError(f"... to_get='{to_get}' not implemented ...")
 
     return res
+
+
+def get_chart_data(
+    chart='system.cpu', after=-600, before=0, points=600, group='average', data_format='csv',
+    endpoint='info', options='', ip='london.my-netdata.io', port='', api_version='v1/', return_type='json'
+):
+    """
+
+    :param chart:
+    :param after:
+    :param before:
+    :param points:
+    :param group:
+    :param data_format:
+    :param endpoint:
+    :param options:
+    :param ip:
+    :param port:
+    :param api_version:
+    :param return_type:
+    :return:
+    """
+
+    # build options
+    options = f'?chart={chart}&after={after}&before={before}&points={points}&group={group}&format={data_format}'
+    # get data
+    data_raw = get(
+        'data', options=options, return_type='text', ip=ip, port=port, api_version=api_version
+    )
+
+    # wrangle data
+    data_list = data_raw.split('\r\n')
+    data_colnames = data_list[0].split(',')
+    data_list = data_list[1:-1]
+    data_list = [row.split(',') for row in data_list]
+
+    # make df
+    df = pd.DataFrame(data_list, columns=data_colnames)
+
+    return df
