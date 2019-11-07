@@ -35,6 +35,7 @@ Features
 --------
 
 * See `Google Colab Starter Notebook`_ to play around.
+* See example notebooks in `notebooks`_ folder also.
 * Other Stuff :)
 
 Credits
@@ -46,3 +47,4 @@ This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypack
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
 .. _`PDF here`: https://buildmedia.readthedocs.org/media/pdf/am4894dev/latest/am4894dev.pdf
 .. _`Google Colab Starter Notebook`: https://colab.research.google.com/drive/1lqksuYFdubGMo7obTy19TIAVuiA68naM
+.. _`notebooks`: https://github.com/andrewm4894/am4894dev/tree/master/notebooks
