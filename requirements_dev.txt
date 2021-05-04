@@ -13,5 +13,5 @@ sphinx-rtd-theme==0.4.3
 jupyter==1.0.0
 jupyterlab==1.2.1
 
-pytest==4.6.5
+pytest==6.2.4
 pytest-runner==5.1
